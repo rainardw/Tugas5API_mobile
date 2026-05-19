@@ -19,6 +19,21 @@ Aplikasi Android berbasis Kotlin yang mengimplementasikan konsumsi **REST API** 
 - **Storage**: SharedPreferences
 
 ## Screenshot
-
-| Halaman Login | Halaman Data Pasien | Halaman Create Data Pasien | Halaman Data Pasien New |
-| <img width="376" height="866" alt="image" src="https://github.com/user-attachments/assets/9634b2e9-cef4-4404-9b59-015932ffa067" /> | <img width="1080" height="2460" alt="image" src="https://github.com/user-attachments/assets/27643e3e-0a35-47b6-a7cb-f28eb99b62a6" /> | <img width="383" height="877" alt="image" src="https://github.com/user-attachments/assets/3b03ba1c-87bf-49d7-b3f4-7e732bf37518" /> | <img width="1080" height="2460" alt="image" src="https://github.com/user-attachments/assets/6ee00f75-7917-477d-b150-588b4ccf4881" /> |
+<table>
+  <tr>
+    <th align="center">Halaman Login</th>
+    <th align="center">Halaman Data Pasien</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://github.com/user-attachments/assets/9634b2e9-cef4-4404-9b59-015932ffa067" width="200"/></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/27643e3e-0a35-47b6-a7cb-f28eb99b62a6" width="200"/></td>
+  </tr>
+  <tr>
+    <th align="center">Halaman Create Data</th>
+    <th align="center">Data Baru Muncul</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://github.com/user-attachments/assets/3b03ba1c-87bf-49d7-b3f4-7e732bf37518" width="200"/></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/6ee00f75-7917-477d-b150-588b4ccf4881" width="200"/></td>
+  </tr>
+</table>
