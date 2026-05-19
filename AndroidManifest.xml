@@ -14,9 +14,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PatientApiApp">
         <activity
+            android:name=".AddPatientActivity"
+            android:exported="false"
+            android:label="Tambah Pasien"
+            android:parentActivityName=".PatientActivity" />
+        <activity
             android:name=".PatientActivity"
             android:exported="false" />
-
         <activity
             android:name=".MainActivity"
             android:exported="true">

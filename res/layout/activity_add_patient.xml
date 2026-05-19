@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tambah Pasien Baru"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/etNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Pasien"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etTanggalLahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tanggal Lahir (YYYY-MM-DD)"
+            android:inputType="date"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etJenisKelamin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jenis Kelamin (L/P)"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alamat"
+            android:inputType="textPostalAddress"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etNoTelepon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="No Telepon"
+            android:inputType="phone"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpan Pasien"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</ScrollView>
