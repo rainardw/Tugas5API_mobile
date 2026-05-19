@@ -1,2 +1,24 @@
 # Tugas5API_mobile
 Tugas Pemrograman bergerak mobile materi 7 API
+
+# 📱 Aplikasi Data Pasien (Tugas Materi 7)
+
+Aplikasi Android berbasis Kotlin yang mengimplementasikan konsumsi **REST API** menggunakan library **Retrofit**. Aplikasi ini mencakup fitur autentikasi login, penyimpanan token lokal, dan pengambilan data pasien dengan keamanan *Bearer Token*.
+
+## Fitur Utama
+- **Login**: Autentikasi pengguna menggunakan API endpoint `/login`.
+- **Token Management**: Menyimpan JWT Token ke `SharedPreferences` setelah login berhasil.
+- **Bearer Auth**: Mengirimkan token pada header request `GET /api/pasien`.
+- **Data List**: Menampilkan data pasien (Nama, TTL, Alamat, dll) di `RecyclerView`.
+- **Loading State**: Indikator loading saat proses network berlangsung.
+
+## Tech Stack
+- **Language**: Kotlin
+- **Network**: Retrofit2, OkHttp, Gson Converter
+- **UI**: XML Layout, RecyclerView, CardView
+- **Storage**: SharedPreferences
+
+## Screenshot
+
+| Halaman Login | Halaman Data Pasien | Halaman Create Data Pasien | Halaman Data Pasien New |
+| <img width="376" height="866" alt="image" src="https://github.com/user-attachments/assets/9634b2e9-cef4-4404-9b59-015932ffa067" /> | <img width="1080" height="2460" alt="image" src="https://github.com/user-attachments/assets/27643e3e-0a35-47b6-a7cb-f28eb99b62a6" /> | <img width="383" height="877" alt="image" src="https://github.com/user-attachments/assets/3b03ba1c-87bf-49d7-b3f4-7e732bf37518" /> | <img width="1080" height="2460" alt="image" src="https://github.com/user-attachments/assets/6ee00f75-7917-477d-b150-588b4ccf4881" /> |
