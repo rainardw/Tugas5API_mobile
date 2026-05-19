@@ -11,6 +11,7 @@ Aplikasi Android berbasis Kotlin yang mengimplementasikan konsumsi **REST API** 
 - **Bearer Auth**: Mengirimkan token pada header request `GET /api/pasien`.
 - **Data List**: Menampilkan data pasien (Nama, TTL, Alamat, dll) di `RecyclerView`.
 - **Loading State**: Indikator loading saat proses network berlangsung.
+- **Create Data**: Menambah data pasien baru
 
 ## Tech Stack
 - **Language**: Kotlin
